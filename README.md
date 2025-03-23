@@ -1,7 +1,7 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Title
-Title1
+Test
 
 ## Table of Contents
 - [Description](#description)
@@ -13,25 +13,25 @@ Title1
 - [Questions](#questions)
 
 ## Description
-Description1
+Test
 
 ## Installation
-Instructions1
+Test
 
 ## Usage
-Usage1
+Test
 
 ## Contributing
-Contributor1
+Test
 
 ## Tests
-Test1
+Test
 
 ## License
-This project is covered under the Apache License 2.0.
+This project is covered under the MIT License.
 
 ## Questions
 For questions about this project, please visit my GitHub profile:
 [jkelley](https://github.com/jkelley)
 
-For additional questions, you can reach me at: jkelley@gmail.com
+For additional questions, you can reach me at: pingjustin@gmail.com

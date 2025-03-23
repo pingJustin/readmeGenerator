@@ -58,7 +58,7 @@ const questions = [
 ];
 
 // Function to write README file
-function writeToFile(fileName, data) {
+async function writeToFile(fileName, data) {
     const licenseBadge = {
         'MIT License': '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
         'Apache License 2.0': '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
@@ -102,14 +102,12 @@ For questions about this project, please visit my GitHub profile:
 
 For additional questions, you can reach me at: ${data.email}
 `;
-
-        fs.writeFileSync(fileName, readmeContent, (err) => {
-            if (err) {
-                console.error(err);
-                return;
-            }
-            console.log('README.md has been generated!');
-        });
+    try {
+       await fs.writeFileSync(fileName, readmeContent);
+    }
+    catch (error) {
+        console.error('Error writing README:', error);
+    }
 }
 
 // Function to initialize app
